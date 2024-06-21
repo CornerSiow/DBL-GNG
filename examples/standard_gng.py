@@ -207,7 +207,7 @@ class StandardGNG:
           
            
 data = []
-f = open("dataset/Aggregation.txt", "r")
+f = open("../dataset/Aggregation.txt", "r")
 for x in f:
     data.append(np.asanyarray(x.split(), dtype=np.float32))
 data = np.vstack(data)    
