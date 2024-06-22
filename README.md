@@ -3,7 +3,7 @@ Distributed Batch Learning Growing Neural Gas.
 
 DBL-GNG is to used to extract the toplogical map from point clouds using matrix calculation, so it can process faster.
 
-Please find the examples for:
+Please find the code in the example folder for the python code of GNG:
 1) standard GNG
 2) DBL-GNG (proposed method)
 3) FCM-GNG (coming soon)
