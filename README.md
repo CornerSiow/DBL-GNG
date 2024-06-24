@@ -5,7 +5,7 @@ DBL-GNG is to used to extract the toplogical map from point clouds using matrix 
 
 Please find the code in the example folder for the python code of GNG:
 1) standard GNG
-2) DBL-GNG (proposed method)
+2) DBL-GNG (<a href="https://www.mdpi.com/2227-7390/12/12/1909">proposed method</a>)
 3) FCM-BL-GNG (<a href="https://www.jstage.jst.go.jp/article/jaciii/25/6/25_1011/_article/-char/ja/">Multilayer Batch Learning Growing Neural Gas for Learning Multiscale Topologies</a>)
 4) MS-BL-GNG (coming soon)
 
