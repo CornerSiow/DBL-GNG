@@ -166,6 +166,7 @@ class StandardGNG:
             
         for v in finalDelete:                  
             #delete local layer node
+            self.c = self.c[ np.logical_not(np.logical_or(self.c[:,0] == v, self.c[:,1] == v))]        
             self.c[self.c[:,0] > v,0] -= 1
             self.c[self.c[:,1] > v,1] -= 1           
             self.W = np.delete(self.W, v, axis=0)
